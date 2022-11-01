@@ -1,3 +1,5 @@
+# Property é um método utilizado para criar atributos gerenciados (utilizado com @)
+
 class Foo:
     def __init__(self, x=None):
         self._x = x

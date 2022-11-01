@@ -1,3 +1,4 @@
+# Metodo Construtor
 class Cachorro:
     def __init__(self, nome, cor, acordado=True):
         print("Inicializando a classe...")
@@ -5,6 +6,7 @@ class Cachorro:
         self.cor = cor
         self.acordado = acordado
 
+# Metodo Destrutor
     def __del__(self):
         print("Removendo a instância da classe.")
 

@@ -10,15 +10,15 @@ class Veiculo:
     def __str__(self):
         return f"{self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
 
-
+# Moto herdou as caracteristicas de Veiculo
 class Motocicleta(Veiculo):
     pass
 
-
+# Carro herdou as caracteristicas de Veiculo
 class Carro(Veiculo):
     pass
 
-
+# Carro herdou as caracteristicas de Veiculo e acrescentou as suas
 class Caminhao(Veiculo):
     def __init__(self, cor, placa, numero_rodas, carregado):
         super().__init__(cor, placa, numero_rodas)
