@@ -1,3 +1,6 @@
+# Atributos de classe são compartilhados entre os objetos
+#  Atributo de instância: são diferentes para cada objeto (cada obejto tem uma cópia, utiliza o self)
+
 class Estudante:
     escola = "DIO"
 
